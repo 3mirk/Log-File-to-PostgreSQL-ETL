@@ -48,7 +48,6 @@ JOBRTE=B;;;;;ART DEBLOCKER 2;20250326220100;;
 ## Repo layout
 
 ```text
-lds-log-etl/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
