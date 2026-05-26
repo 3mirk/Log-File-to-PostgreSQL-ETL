@@ -1,4 +1,4 @@
-# LDS Log ETL to PostgreSQL
+# Log File to PostgreSQL ETL
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-ETL_Pipeline-336791?logo=postgresql)
@@ -6,7 +6,7 @@
 ![psycopg2](https://img.shields.io/badge/psycopg2-PostgreSQL_Driver-336791)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-Lightweight Python service that watches a folder for automatically generated LDS log files, parses route scan data, and loads the results into a PostgreSQL table for reporting and analytics.
+Lightweight Python service that watches a folder for automatically generated log files, parses route scan data, and loads the results into a PostgreSQL table for reporting and analytics.
 
 ## Features
 
