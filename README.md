@@ -56,27 +56,26 @@ lds-log-etl/
 ├── sql/
 │   └── create_job_entries.sql
 ├── src/
-│   └── lds_log_etl/
-│       ├── __init__.py
-│       ├── app.py
-│       ├── config.py
-│       ├── db.py
-│       ├── parser.py
-│       └── watcher.py
+│   └──__init__.py
+│   ├── app.py
+│   ├── config.py
+│   ├── db.py
+│   ├── parser.py
+│   ├── watcher.py
 └── docs/
     └── windows_task_scheduler.md
 ```
 
 ## Setup
 
-### 1. Clone the repo
+### 1. Clone repo
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/lds-log-etl.git
 cd lds-log-etl
 ```
 
-### 2. Create a virtual environment
+### 2. Create venv
 
 ```bash
 python -m venv .venv
